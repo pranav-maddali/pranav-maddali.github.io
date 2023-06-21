@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import logo from '../memoji.svg';
+import logo from '../assets/memoji.svg';
 import { Link, animateScroll as scroll} from 'react-scroll';
 
 export default class NavBar extends Component {
@@ -27,7 +27,7 @@ export default class NavBar extends Component {
                             offset={0}
                             duration={500}
                         >
-                            home
+                            experience
                         </Link>
                     </div>
                     <div className='nav-item'>
@@ -39,7 +39,7 @@ export default class NavBar extends Component {
                             offset={0}
                             duration={500}
                         >
-                            experience
+                            projects
                         </Link>
                     </div>
                     <div className='nav-item'>

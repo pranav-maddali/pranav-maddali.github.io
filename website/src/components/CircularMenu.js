@@ -21,10 +21,10 @@ export function CircularMenu() {
 
     return (
         <CircleMenu
-            startAngle={-45}
+            startAngle={45}
             rotationAngle={360}
             itemSize={1.5}
-            radius={5}
+            radius={4}
             rotationAngleInclusive={false}
         >
 
