@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Section = ({ title, subtitle, dark, id}) => {
+const Section = ({ title, subtitle, id }) => {
     return (
-        <div className={"section" + (dark ? "section-dark" : "")}>
+        <div className={"section"}>
             <div className="section-content" id={id}>
                 <h1 style={{'text-align':'center'}}>{title}</h1>
                 <p>{subtitle}</p>

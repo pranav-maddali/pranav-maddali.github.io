@@ -9,21 +9,38 @@ import "./App.css"
 class App extends Component {
   render() {
     return (
-      <div>
-          <div className="CircularMenu">
-            <CircularMenu />
+      <div className='Row'>
+          <div className="Column">
+            <div className='NavBar'><NavBar /></div>
           </div>
-          <div className="NavBar">
-            <NavBar />
+          <div className='Column'>
+            <div className="Sections">
+              <Section 
+                title="hello"
+                subtitle=""
+                id="section1"
+              />
+              <Section 
+                title="home"
+                subtitle={dummyText}
+                id="section2"
+              />
+              <Section 
+                title="experience"
+                subtitle={dummyText}
+                id="section3"
+              />
+              <Section 
+                title="about"
+                subtitle={dummyText}
+                id="section4"
+              />
+            </div>
           </div>
-          <div className="Sections">
-            <Section 
-              title="Home"
-              subtitle={dummyText}
-              dark={true}
-              id="section1"
-            />
+          <div className="Column">
+            <div className='CircularMenu'><CircularMenu /></div>
           </div>
+          
       </div>
     )
   }
