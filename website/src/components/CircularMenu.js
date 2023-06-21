@@ -1,8 +1,6 @@
 import MailIcon from "@mui/icons-material/Mail";
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import GitHubIcon from '@mui/icons-material/GitHub';
-import HomeRoundedIcon from '@mui/icons-material/HomeRounded';
 import FormatListBulletedRoundedIcon from '@mui/icons-material/FormatListBulletedRounded';
 
 import {
@@ -10,6 +8,14 @@ import {
     CircleMenuItem,
     TooltipPlacement,
 } from "react-circular-menu";
+
+import styled from 'styled-components';
+
+const CustomTooltip = styled.span`
+  font-family: 'ubuntu';
+  font-size: 18px;
+  color: #ffffff;
+`;
 
 export function CircularMenu() {
 
@@ -22,23 +28,9 @@ export function CircularMenu() {
             rotationAngleInclusive={true}
         >
 
-            <CircleMenuItem
-                tooltip="Home"
-                tooltipPlacement={TooltipPlacement.Top}
-                >
-                <HomeRoundedIcon />
-            </CircleMenuItem>
-
-            <CircleMenuItem
-                tooltip="About"
-                tooltipPlacement={TooltipPlacement.Left}
-                >
-                <AccountCircleIcon />
-            </CircleMenuItem>
-
             <CircleMenuItem 
-                tooltip="Email"
-                tooltipPlacement={TooltipPlacement.Left}
+                tooltip={<CustomTooltip>email</CustomTooltip>}
+                tooltipPlacement={TooltipPlacement.Top}
                 link="`mailto:pranav1608maddali@gmail.com`"
                 target="_blank"
             >
@@ -46,14 +38,14 @@ export function CircularMenu() {
             </CircleMenuItem>
 
             <CircleMenuItem
-                tooltip="Resume"
+                tooltip={<CustomTooltip>resume</CustomTooltip>}
                 tooltipPlacement={TooltipPlacement.Left}
                 >
                 <FormatListBulletedRoundedIcon />
             </CircleMenuItem>
 
             <CircleMenuItem 
-                tooltip="LinkedIn"
+                tooltip={<CustomTooltip>linkedin</CustomTooltip>}
                 tooltipPlacement={TooltipPlacement.Left}
                 link="https://www.linkedin.com/in/pranav-maddali/"
                 target="_blank"
@@ -62,7 +54,7 @@ export function CircularMenu() {
             </CircleMenuItem>
 
             <CircleMenuItem
-                tooltip="GitHub"
+                tooltip={<CustomTooltip>github</CustomTooltip>}
                 tooltipPlacement={TooltipPlacement.Bottom}
                 link="https://github.com/pranav-maddali"
                 target="_blank"

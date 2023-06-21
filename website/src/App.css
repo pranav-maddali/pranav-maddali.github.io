@@ -8,9 +8,35 @@
 .CircularMenu {
   display: flex;
   position: fixed;
-  right: 20px;
+  right: 25px;
   top: 50%;
-  transform: translate(-50%, -50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
   margin: 0 auto;
 }
+
+.NavBar {
+  display: flex;
+  position: fixed;
+  overflow: hidden;
+  left: 25px;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  margin: auto;
+  font: bold 18px ubuntu;
+  text-align: center;
+}
+
+.Sections {
+  font: 18px ubuntu;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  margin-left: 175px;
+  margin-right: 175px;
+  margin-top: 175px;
+  margin-bottom: 175px;
+}
+
 
