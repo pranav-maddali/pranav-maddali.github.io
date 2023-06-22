@@ -6,6 +6,9 @@ export default class NavBar extends Component {
     scrollToTop = () => {
         scroll.scrollToTop();
     };
+    scrollToBottom = () => {
+        scroll.scrollToBottom();
+    };
 
     render() {
         return (
@@ -24,7 +27,7 @@ export default class NavBar extends Component {
                             to="section2"
                             spy={true}
                             smooth={true}
-                            offset={350}
+                            offset={300}
                             duration={500}
                         >
                             experience
@@ -36,7 +39,7 @@ export default class NavBar extends Component {
                             to="section3"
                             spy={true}
                             smooth={true}
-                            offset={350}
+                            offset={300}
                             duration={500}
                         >
                             projects
@@ -48,7 +51,7 @@ export default class NavBar extends Component {
                             to="section4"
                             spy={true}
                             smooth={true}
-                            offset={350}
+                            offset={300}
                             duration={500}
                         >
                             interests
@@ -57,10 +60,10 @@ export default class NavBar extends Component {
                     <div className='nav-item'>
                         <Link 
                             activeClass='active'
-                            to="section5"
+                            onClick={this.scrollToBottom}
                             spy={true}
                             smooth={true}
-                            offset={350}
+                            offset={300}
                             duration={500}
                         >
                             about

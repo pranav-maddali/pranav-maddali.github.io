@@ -17,7 +17,7 @@ class App extends Component {
           </div>
           <div className='Column'>
             <div className="Sections">
-              <h1 className='middle-header' data-replace="pranav maddali"><span>pranav</span></h1>
+              <h1 className='middle-header ex'><span>p</span><span>r</span><span>a</span><span>n</span><span>a</span><span>v</span> <span>m</span><span>a</span><span>d</span><span>d</span><span>a</span><span>l</span><span>i</span></h1>
               <Section 
                 title="nice to meet you!"
                 subtitle={dummyText}
