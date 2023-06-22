@@ -6,10 +6,10 @@ const Section = ({ title, subtitle, id, photo }) => {
         <div className="section">
             <div className="section-content" id={id}>
                 <div className='image-container'>
-                    <img src={photo ? photo : ""} className='grad-image'/>
+                    <img src={photo} className='grad-image'/>
                 </div>
                 <h2 style={{'text-align':'center'}}>{title}</h2>
-                <p style={{'lineHeight':'2'}}><strong>{subtitle}</strong></p>
+                <p style={{'lineHeight':'2'}}>{subtitle}</p>
             </div>
         </div>
     );

@@ -29,6 +29,10 @@
 
 .Row {
   background-color: #e5e5e5;
+  background-image: url(./assets/noise.png);
+  background-repeat: repeat;
+  background-size: 300px 300px;
+  background-attachment: fixed;
   display: grid;
   grid-template-columns: 1fr 3fr 1fr;
   grid-gap: 0px;
@@ -64,7 +68,7 @@
 .nav-item {
   background:
     linear-gradient(
-      to right, 
+      to left, 
       rgb(0, 0, 0),
       rgb(0, 0, 0)
     ),
@@ -74,7 +78,7 @@
       rgba(255, 0, 180, 1),
       rgba(0, 100, 200, 1)
   );
-  background-size: 100% 3px, 0 3px;
+  background-size: 100% 3px, 0% 3px;
   background-position: 100% 100%, 0 100%;
   background-repeat: no-repeat;
   transition: background-size 400ms;
@@ -82,7 +86,7 @@
 
 .nav-item:hover {
   cursor: pointer;
-  background-size: 0 3px, 100% 3px;
+  background-size: 0% 3px, 100% 3px;
 }
 
 .middle-header {
@@ -94,6 +98,7 @@
   color: #000000;
   letter-spacing: 5px;
   transition: 0.5s;
+  
 }
 
 .ex p {
@@ -102,11 +107,11 @@
 
 .ex span {
   opacity: 0.2;
-  transition: opacity 2000ms;
+  transition: all 2000ms;
 }
 
 .ex:hover span {
-  opacity: 1
+  opacity: 1;
 }
 
 .container {
@@ -120,7 +125,7 @@
   background-attachment: fixed;
   background-size: 15%;
   background-position-y: center;
-  background-position-x: 4.5%;
+  background-position-x: 3.5%;
 }
 
 #menu-col {

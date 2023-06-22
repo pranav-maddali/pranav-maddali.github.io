@@ -21,21 +21,12 @@ export function CircularMenu() {
 
     return (
         <CircleMenu
-            startAngle={45}
+            startAngle={-90}
             rotationAngle={360}
             itemSize={1.5}
             radius={4}
             rotationAngleInclusive={false}
         >
-
-            <CircleMenuItem 
-                tooltip={<CustomTooltip>email</CustomTooltip>}
-                tooltipPlacement={TooltipPlacement.Bottom}
-                link="`mailto:pranav1608maddali@gmail.com`"
-                target="_blank"
-            >
-                <MailIcon />
-            </CircleMenuItem>
 
             <CircleMenuItem
                 tooltip={<CustomTooltip>resume</CustomTooltip>}

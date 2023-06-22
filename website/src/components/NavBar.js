@@ -27,7 +27,7 @@ export default class NavBar extends Component {
                             to="section2"
                             spy={true}
                             smooth={true}
-                            offset={300}
+                            offset={200}
                             duration={500}
                         >
                             experience
@@ -39,7 +39,7 @@ export default class NavBar extends Component {
                             to="section3"
                             spy={true}
                             smooth={true}
-                            offset={300}
+                            offset={200}
                             duration={500}
                         >
                             projects
@@ -51,7 +51,19 @@ export default class NavBar extends Component {
                             to="section4"
                             spy={true}
                             smooth={true}
-                            offset={300}
+                            offset={150}
+                            duration={500}
+                        >
+                            organizations
+                        </Link>
+                    </div>
+                    <div className='nav-item'>
+                        <Link 
+                            activeClass='active'
+                            to="section5"
+                            spy={true}
+                            smooth={true}
+                            offset={200}
                             duration={500}
                         >
                             interests
@@ -60,10 +72,10 @@ export default class NavBar extends Component {
                     <div className='nav-item'>
                         <Link 
                             activeClass='active'
-                            onClick={this.scrollToBottom}
+                            to="section6"
                             spy={true}
                             smooth={true}
-                            offset={300}
+                            offset={50}
                             duration={500}
                         >
                             about
