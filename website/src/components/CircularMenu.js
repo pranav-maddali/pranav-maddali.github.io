@@ -1,7 +1,7 @@
-import MailIcon from "@mui/icons-material/Mail";
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 import FormatListBulletedRoundedIcon from '@mui/icons-material/FormatListBulletedRounded';
+import InstagramIcon from '@mui/icons-material/Instagram';
 
 import {
     CircleMenu,
@@ -21,23 +21,31 @@ export function CircularMenu() {
 
     return (
         <CircleMenu
-            startAngle={-90}
+            startAngle={-135}
             rotationAngle={360}
-            itemSize={1.5}
+            itemSize={1.75}
             radius={4}
             rotationAngleInclusive={false}
         >
+            <CircleMenuItem
+                tooltip={<CustomTooltip>instagram</CustomTooltip>}
+                tooltipPlacement={TooltipPlacement.Top}
+                link="https://www.instagram.com/pranav.maddali/"
+                target="_blank"
+                >
+                <InstagramIcon />
+            </CircleMenuItem>
 
             <CircleMenuItem
                 tooltip={<CustomTooltip>resume</CustomTooltip>}
-                tooltipPlacement={TooltipPlacement.Bottom}
+                tooltipPlacement={TooltipPlacement.Top}
                 >
                 <FormatListBulletedRoundedIcon />
             </CircleMenuItem>
 
             <CircleMenuItem 
                 tooltip={<CustomTooltip>linkedin</CustomTooltip>}
-                tooltipPlacement={TooltipPlacement.Top}
+                tooltipPlacement={TooltipPlacement.Bottom}
                 link="https://www.linkedin.com/in/pranav-maddali/"
                 target="_blank"
             >
@@ -46,7 +54,7 @@ export function CircularMenu() {
 
             <CircleMenuItem
                 tooltip={<CustomTooltip>github</CustomTooltip>}
-                tooltipPlacement={TooltipPlacement.Top}
+                tooltipPlacement={TooltipPlacement.Bottom}
                 link="https://github.com/pranav-maddali"
                 target="_blank"
             >

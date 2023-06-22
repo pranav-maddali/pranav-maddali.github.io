@@ -16,7 +16,7 @@ export default class NavBar extends Component {
                 <img
                     src={logo}
                     alt="me."
-                    style={{'height':'100px', 'width':'100px', 'border-radius':'50%'}} 
+                    style={{'height':'80px', 'width':'80px', 'border-radius':'50%'}} 
                     onClick={this.scrollToTop}
                     className="nav-logo"
                 />
@@ -27,10 +27,10 @@ export default class NavBar extends Component {
                             to="section2"
                             spy={true}
                             smooth={true}
-                            offset={200}
+                            offset={0}
                             duration={500}
                         >
-                            experience
+                            experiences
                         </Link>
                     </div>
                     <div className='nav-item'>
@@ -39,7 +39,7 @@ export default class NavBar extends Component {
                             to="section3"
                             spy={true}
                             smooth={true}
-                            offset={200}
+                            offset={0}
                             duration={500}
                         >
                             projects
@@ -51,10 +51,10 @@ export default class NavBar extends Component {
                             to="section4"
                             spy={true}
                             smooth={true}
-                            offset={150}
+                            offset={0}
                             duration={500}
                         >
-                            organizations
+                            skills
                         </Link>
                     </div>
                     <div className='nav-item'>
@@ -63,10 +63,10 @@ export default class NavBar extends Component {
                             to="section5"
                             spy={true}
                             smooth={true}
-                            offset={200}
+                            offset={0}
                             duration={500}
                         >
-                            interests
+                            organizations
                         </Link>
                     </div>
                     <div className='nav-item'>
@@ -75,7 +75,19 @@ export default class NavBar extends Component {
                             to="section6"
                             spy={true}
                             smooth={true}
-                            offset={50}
+                            offset={0}
+                            duration={500}
+                        >
+                            interests
+                        </Link>
+                    </div>
+                    <div className='nav-item'>
+                        <Link 
+                            activeClass='active'
+                            to="section7"
+                            spy={true}
+                            smooth={true}
+                            offset={0}
                             duration={500}
                         >
                             about
