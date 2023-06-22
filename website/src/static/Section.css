@@ -15,12 +15,11 @@
 }
 
 .grad-image {
-    filter: blur(0);
-    transition: 1s ease-in-out;
+    filter: grayscale(40%);
+    transition: 0.5s ease-in-out;
 }
 
 .grad-image:hover {
-    cursor: pointer;
-    filter: blur(5px);
-    transition: 1s ease-in-out;
+    filter: grayscale(0%);
+    transition: 0.5s ease-in-out;
 }

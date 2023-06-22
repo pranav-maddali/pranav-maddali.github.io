@@ -24,7 +24,7 @@ export default class NavBar extends Component {
                             to="section2"
                             spy={true}
                             smooth={true}
-                            offset={0}
+                            offset={350}
                             duration={500}
                         >
                             experience
@@ -36,7 +36,7 @@ export default class NavBar extends Component {
                             to="section3"
                             spy={true}
                             smooth={true}
-                            offset={0}
+                            offset={350}
                             duration={500}
                         >
                             projects
@@ -48,7 +48,19 @@ export default class NavBar extends Component {
                             to="section4"
                             spy={true}
                             smooth={true}
-                            offset={0}
+                            offset={350}
+                            duration={500}
+                        >
+                            interests
+                        </Link>
+                    </div>
+                    <div className='nav-item'>
+                        <Link 
+                            activeClass='active'
+                            to="section5"
+                            spy={true}
+                            smooth={true}
+                            offset={350}
                             duration={500}
                         >
                             about

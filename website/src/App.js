@@ -4,6 +4,7 @@ import NavBar from "./components/NavBar";
 import Section from "./components/Section";
 import grad from "./assets/grad.svg";
 import dummyText from './DummyText';
+import aboutText from './AboutText';
 
 import "./App.css"
 
@@ -39,9 +40,16 @@ class App extends Component {
               </div>
               <div className='container'>
                 <Section 
-                  title="about"
+                  title="interests"
                   subtitle={dummyText}
                   id="section4"
+                />
+              </div>
+              <div className='container'>
+                <Section 
+                  title="about"
+                  subtitle={aboutText}
+                  id="section5"
                 />
               </div>
             </div>
