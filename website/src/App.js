@@ -11,21 +11,42 @@ class App extends Component {
   render() {
     return (
       <div className='Row'>
-          <div className="Column">
+          <div className="Column" id="navbar-col">
             <div className='NavBar'><NavBar /></div>
           </div>
           <div className='Column'>
             <div className="Sections">
               <h1 className='middle-header' data-replace="pranav maddali"><span>pranav</span></h1>
               <Section 
-                title="hello"
+                title="nice to meet you!"
                 subtitle={dummyText}
                 id="section1"
                 photo={grad}
               />
+              <div className='container'>
+                <Section 
+                  title="experience"
+                  subtitle={dummyText}
+                  id="section2"
+                />
+              </div>
+              <div className='container'>
+                <Section 
+                  title="projects"
+                  subtitle={dummyText}
+                  id="section3"
+                />
+              </div>
+              <div className='container'>
+                <Section 
+                  title="about"
+                  subtitle={dummyText}
+                  id="section4"
+                />
+              </div>
             </div>
           </div>
-          <div className="Column">
+          <div className="Column" id="menu-col">
             <div className='CircularMenu'><CircularMenu /></div>
           </div>
       </div>

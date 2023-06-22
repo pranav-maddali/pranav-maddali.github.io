@@ -30,7 +30,7 @@ export function CircularMenu() {
 
             <CircleMenuItem 
                 tooltip={<CustomTooltip>email</CustomTooltip>}
-                tooltipPlacement={TooltipPlacement.Top}
+                tooltipPlacement={TooltipPlacement.Bottom}
                 link="`mailto:pranav1608maddali@gmail.com`"
                 target="_blank"
             >
@@ -39,14 +39,14 @@ export function CircularMenu() {
 
             <CircleMenuItem
                 tooltip={<CustomTooltip>resume</CustomTooltip>}
-                tooltipPlacement={TooltipPlacement.Left}
+                tooltipPlacement={TooltipPlacement.Bottom}
                 >
                 <FormatListBulletedRoundedIcon />
             </CircleMenuItem>
 
             <CircleMenuItem 
                 tooltip={<CustomTooltip>linkedin</CustomTooltip>}
-                tooltipPlacement={TooltipPlacement.Left}
+                tooltipPlacement={TooltipPlacement.Top}
                 link="https://www.linkedin.com/in/pranav-maddali/"
                 target="_blank"
             >
@@ -55,7 +55,7 @@ export function CircularMenu() {
 
             <CircleMenuItem
                 tooltip={<CustomTooltip>github</CustomTooltip>}
-                tooltipPlacement={TooltipPlacement.Bottom}
+                tooltipPlacement={TooltipPlacement.Top}
                 link="https://github.com/pranav-maddali"
                 target="_blank"
             >
