@@ -137,7 +137,7 @@ class App extends Component {
                                 <div className='Column'>
                                   <Section 
                                     title="music"
-                                    subtitle={<p>i predominantly listen to rap or edm, and my favorite artist is <b>travis scott</b>. i started djing in 2021 at ucla for orgs on campus. mainly dabble in house and edm but learning how to mix rap currently.</p>}
+                                    subtitle={<p>i predominantly listen to rap or edm, and my favorite artist is <b>travis scott</b>. i started djing in 2021 at ucla for orgs on campus. mainly dabble in house and edm but learning how to mix rap.</p>}
                                     id="mini-section2"
                                   />
                                 </div>

@@ -12,7 +12,7 @@ import {
 import styled from 'styled-components';
 
 const CustomTooltip = styled.span`
-  font-family: 'ubuntu';
+  font-family: 'Trebuchet MS';
   font-size: 18px;
   color: #ffffff;
 `;
