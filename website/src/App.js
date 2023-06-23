@@ -10,6 +10,12 @@ import AutoAwesomeIcon from '@mui/icons-material/AutoAwesome';
 import FmdGoodIcon from '@mui/icons-material/FmdGood';
 import EmailRoundedIcon from '@mui/icons-material/EmailRounded';
 import LocalPhoneRoundedIcon from '@mui/icons-material/LocalPhoneRounded';
+import WorkRoundedIcon from '@mui/icons-material/WorkRounded';
+import LaptopMacRoundedIcon from '@mui/icons-material/LaptopMacRounded';
+import PsychologyRoundedIcon from '@mui/icons-material/PsychologyRounded';
+import AccountBalanceRoundedIcon from '@mui/icons-material/AccountBalanceRounded';
+import DirectionsBikeRoundedIcon from '@mui/icons-material/DirectionsBikeRounded';
+import InfoRoundedIcon from '@mui/icons-material/InfoRounded';
 
 import "./App.css"
 
@@ -32,21 +38,53 @@ class App extends Component {
               />
               <div className='container'>
                 <Section 
-                  title="experiences"
-                  subtitle={<p><b>meta</b><br></br><i>software engineer intern</i><br></br>jun 2022 - sep 2022<br></br><br></br><b>creative labs</b><br></br><i>product manager, software developer</i><br></br>jan 2020 - sep 2021<br></br><br></br><b>ucla anderson school of business</b><br></br><i>undergraduate researcher</i><br></br>jun 2021 - aug 2021<br></br></p>}
+                  title={<p><WorkRoundedIcon style={{'fontSize':'75px'}}/><br></br>experiences</p>}
+                  subtitle={<p>
+                              <b>meta</b>
+                              <br></br>
+                              <i>software engineer intern</i>
+                              <br></br>
+                              <small>applied research swe</small>
+                              <br></br>
+                              jun 2022 - sep 2022
+                              <br></br><br></br>
+                              <b>creative labs</b>
+                              <br></br>
+                              <i>product manager, software developer</i>
+                              <br></br>
+                              <small>backend dev</small>
+                              <br></br>
+                              jan 2020 - sep 2021
+                              <br></br><br></br>
+                              <b>ucla anderson school of business</b>
+                              <br></br>
+                              <i>undergraduate researcher</i>
+                              <br></br>
+                              <small>data scientist</small>
+                              <br></br>
+                              jun 2021 - aug 2021
+                              <br></br><br></br>
+                              <b>alphaICs</b>
+                              <br></br>
+                              <i>software engineer intern</i>
+                              <br></br>
+                              <small>machine learning swe</small>
+                              <br></br>
+                              jun 2019 - aug 2019
+                            </p>}
                   id="section2"
                 />
               </div>
               <div className='container'>
                 <Section 
-                  title="projects"
-                  subtitle={<p><b>eeg signal classification</b><br></br>designed crnn w/ bidirectional lstms to map human eeg data to motor imagery, achieving 8% performance increase to a cnn<br></br><br></br><b>spotify playlister</b><br></br>web application built on flask/html/css to generate playlists based on ml clustering of top charts<br></br><br></br><b>rate my club</b><br></br>interactive web application built on react/python for users to add/view information about campus organizations</p>}
+                  title={<p><LaptopMacRoundedIcon style={{'fontSize':'75px'}}/><br></br>projects</p>}
+                  subtitle={<p><b><a href="https://drive.google.com/file/d/1m9gxhilE8N2UGFZ4JU700Q5dUFpLlnAI/view?usp=sharing" target='_blank' style={{'textDecoration':'none', 'color':'#000000'}}>eeg signal classification</a></b><br></br>designed crnn w/ bidirectional lstms to map human eeg data to motor imagery, achieving 8% performance increase to a cnn<br></br><br></br><b><a href="https://github.com/pranav-maddali/spotify_playlister" target='_blank' style={{'textDecoration':'none', 'color':'#000000'}}>spotify playlister</a></b><br></br>web application built on flask/html/css to generate playlists based on ml clustering of top charts<br></br><br></br><b><a href="https://github.com/pranav-maddali/Rate-My-Club" target='_blank' style={{'textDecoration':'none', 'color':'#000000'}}>rate my club</a></b><br></br>interactive web application built on react/python for users to add/view information about campus organizations<br></br><br></br><b><a href="https://github.com/pranav-maddali" target="_blank" style={{'textDecoration':'none', 'color':'#000000'}}>...and more projects in c++, data science, python, etc.</a></b></p>}
                   id="section3"
                 />
               </div>
               <div className='container'>
                 <Section 
-                  title="skills"
+                  title={<p><PsychologyRoundedIcon style={{'fontSize':'75px'}}/><br></br>skills</p>}
                   subtitle={<p>
                               <b>languages</b>
                               <br></br>
@@ -59,30 +97,34 @@ class App extends Component {
                               <b>other</b>
                               <br></br>
                               aws, machine learning, numpy, pandas, hugging face, jupyter nb, git
+                              <br></br><br></br>
+                              <b>relevant coursework</b>
+                              <br></br>
+                              deep learning (grad), machine learning, computer organization, probability, advanced algorithms, operating systems, computer networks
                             </p>}
                   id="section4"
                 />
               </div>
               <div className='container'>
                 <Section 
-                  title="organizations"
+                  title={<p><AccountBalanceRoundedIcon style={{'fontSize':'75px'}}/><br></br>organizations</p>}
                   subtitle={<p><b>creative labs</b><br></br><i>served as a backend developer on mobile app 'partiic' to display parties around campus</i><br></br><br></br><b>acm</b><br></br><i>machine learning crash-course workshops</i><br></br><br></br><b>delta sigma pi</b><br></br><i>served as senior-vice president and director of brotherhood</i></p>}
                   id="section5"
                 />
               </div>
               <div className='container'>
                 <Section 
-                  title="interests"
+                  title={<p><DirectionsBikeRoundedIcon style={{'fontSize':'75px'}}/><br></br>interests</p>}
                   subtitle={<p>
                               <div className='Row2'>
                                 <div className='Column'>
-                                  <SportsBasketballIcon style={{'fontSize':'75px'}}/>
+                                  <SportsBasketballIcon style={{'fontSize':'50px'}}/>
                                 </div>
                                 <div className='Column'>
-                                  <AlbumIcon style={{'fontSize':'75px'}}/>
+                                  <AlbumIcon style={{'fontSize':'50px'}}/>
                                 </div>
                                 <div className='Column'>
-                                  <AutoAwesomeIcon style={{'fontSize':'75px'}}/>
+                                  <AutoAwesomeIcon style={{'fontSize':'50px'}}/>
                                 </div>
                               </div>
                               <div className='Row2'>
@@ -95,7 +137,8 @@ class App extends Component {
                                 <div className='Column'>
                                   <Section 
                                     title="music"
-                                    subtitle={<p>i predominantly listen to rap or edm, and my favorite artist is <b>travis scott</b>. i started djing (tbd on stage name) my junior year at ucla for orgs on campus. mainly dabble in house and edm but learning how to mix rap currently.</p>}
+                                    subtitle={<p>i predominantly listen to rap or edm, and my favorite artist is <b>travis scott</b>. i started djing in 2021 at ucla for orgs on campus. mainly dabble in house and edm but learning how to mix rap currently.</p>}
+                                    id="mini-section2"
                                   />
                                 </div>
                                 <div className='Column'>
@@ -111,19 +154,19 @@ class App extends Component {
               </div>
               <div className='container'>
                 <Section 
-                  title="about"
+                  title={<p><InfoRoundedIcon style={{'fontSize':'75px'}}/><br></br>about</p>}
                   subtitle={<p>
-                              check out my resume/socials using the menu on the right. more information down below: 
+                              check out my resume/socials using the menu on the right and contact information down below: 
                               <br></br><br></br>
-                              <EmailRoundedIcon />
+                              <EmailRoundedIcon style={{'fontSize':'50px'}}/>
                               <br></br>
                               <b>pranav1608maddali@gmail.com</b>
                               <br></br><br></br>
-                              <LocalPhoneRoundedIcon />
+                              <LocalPhoneRoundedIcon style={{'fontSize':'50px'}}/>
                               <br></br>
                               <b>(323) 810-8390</b>
                               <br></br><br></br>
-                              <FmdGoodIcon />
+                              <FmdGoodIcon style={{'fontSize':'50px'}}/>
                               <br></br>
                               <b>bangalore,india</b>
                               <br></br><br></br>

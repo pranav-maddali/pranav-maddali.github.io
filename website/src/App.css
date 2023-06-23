@@ -114,21 +114,39 @@
 }
 
 .ex span {
-  opacity: 0.2;
+  opacity: 0.4;
   transition: all 2000ms;
 }
 
 .ex:hover span {
   opacity: 1;
 }
+#section1 {
+  padding-bottom: 20%;
+}
 
-#section2, #section3, #section4, #section5, #section6 {
+#section2 {
+  padding-top: 5%;
+  padding-bottom: 20%;
+}
+
+#section3, #section4 {
+  padding-top: 15%;
+  padding-bottom: 20%;
+}
+
+#section6 {
+  padding-top: 20%;
+  padding-bottom: 20%
+}
+
+#section5 {
   padding-top: 25%;
-  padding-bottom: 25%;
+  padding-bottom: 20%;
 }
 
 #section7 {
-  padding-top: 25%;
+  padding-top: 15%;
   padding-bottom: 50%;
 }
 
