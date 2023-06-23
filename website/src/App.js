@@ -168,7 +168,7 @@ class App extends Component {
                               <br></br><br></br>
                               <FmdGoodIcon style={{'fontSize':'50px'}}/>
                               <br></br>
-                              <b>bangalore,india</b>
+                              <b>los angeles, ca</b>
                               <br></br><br></br>
                             </p>}
                   id="section7"
