@@ -160,7 +160,7 @@ class App extends Component {
                               <br></br><br></br>
                               <EmailRoundedIcon style={{'fontSize':'50px'}}/>
                               <br></br>
-                              <b>pranav1608maddali@gmail.com</b>
+                              <b>mpranav@ucla.com</b>
                               <br></br><br></br>
                               <LocalPhoneRoundedIcon style={{'fontSize':'50px'}}/>
                               <br></br>

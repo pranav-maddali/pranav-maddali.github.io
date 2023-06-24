@@ -39,7 +39,7 @@ export function CircularMenu() {
             <CircleMenuItem
                 tooltip={<CustomTooltip>resume</CustomTooltip>}
                 tooltipPlacement={TooltipPlacement.Top}
-                link="https://drive.google.com/file/d/1byaj-XEy01TpK-QI9JXPdGKTXqBUEfGS/view?usp=sharing"
+                link="https://drive.google.com/file/d/1x8T65PO2EcEdk1jyKPIvBKGghFGExTRe/view?usp=sharing"
                 target="_blank"
                 >
                 <FormatListBulletedRoundedIcon />
