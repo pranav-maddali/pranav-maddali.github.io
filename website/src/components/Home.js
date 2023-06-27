@@ -18,7 +18,7 @@ class Home extends Component {
                     </h1>
                     <Section 
                         title="nice to meet you!"
-                        subtitle={<p>my name is <b>pranav</b> and i finished my undergrad at <b>ucla</b> in june 2023. i majored in <b>computer science</b> and spent time working in industry, research, and organizations on campus. my interests lie in ai/ml software development and i spent my junior year summer working in nlp @ meta. aside from professional experiences, i can talk all things sports (especially the <b>lakers</b>), working out, music (i started <b>djing</b> my junior year), <b>sneakers</b>, and <b>ar/vr</b>. scroll thru for more information about me!</p>}
+                        subtitle={<p style={{'lineHeight':'2'}}>my name is <b>pranav</b> and i finished my undergrad at <b>ucla</b> in june 2023. i majored in <b>computer science</b> and spent time working in industry, research, and organizations on campus. my interests lie in ai/ml software development and i spent my junior year summer working with nlp @ <b>meta</b>. aside from professional experiences, i can talk all things sports (especially the <b>lakers</b>), working out, music (i started <b>djing</b> my junior year), <b>sneakers</b>, and <b>ar/vr</b>. click through for more information about me!</p>}
                         id="section1"
                     />
                 </div>

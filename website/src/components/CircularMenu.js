@@ -29,7 +29,7 @@ export function CircularMenu() {
             rotationAngleInclusive={true}
         >
             <CircleMenuItem
-                tooltip={<CustomTooltip>instagram</CustomTooltip>}
+                tooltip={<CustomTooltip>follow me on instagram</CustomTooltip>}
                 tooltipPlacement={TooltipPlacement.Left}
                 link="https://www.instagram.com/pranav.maddali/"
                 target="_blank"
@@ -38,8 +38,8 @@ export function CircularMenu() {
             </CircleMenuItem>
 
             <CircleMenuItem
-                tooltip={<CustomTooltip>resume</CustomTooltip>}
-                tooltipPlacement={TooltipPlacement.Top}
+                tooltip={<CustomTooltip>check out my resume</CustomTooltip>}
+                tooltipPlacement={TooltipPlacement.Left}
                 link="https://drive.google.com/file/d/1x8T65PO2EcEdk1jyKPIvBKGghFGExTRe/view?usp=sharing"
                 target="_blank"
                 >
@@ -47,8 +47,8 @@ export function CircularMenu() {
             </CircleMenuItem>
 
             <CircleMenuItem 
-                tooltip={<CustomTooltip>linkedin</CustomTooltip>}
-                tooltipPlacement={TooltipPlacement.Bottom}
+                tooltip={<CustomTooltip>visit my linkedin</CustomTooltip>}
+                tooltipPlacement={TooltipPlacement.Top}
                 link="https://www.linkedin.com/in/pranav-maddali/"
                 target="_blank"
             >
@@ -56,8 +56,8 @@ export function CircularMenu() {
             </CircleMenuItem>
 
             <CircleMenuItem
-                tooltip={<CustomTooltip>github</CustomTooltip>}
-                tooltipPlacement={TooltipPlacement.Top}
+                tooltip={<CustomTooltip>check out my github</CustomTooltip>}
+                tooltipPlacement={TooltipPlacement.Right}
                 link="https://github.com/pranav-maddali"
                 target="_blank"
             >
@@ -65,7 +65,7 @@ export function CircularMenu() {
             </CircleMenuItem>
 
             <CircleMenuItem
-                tooltip={<CustomTooltip>spotify</CustomTooltip>}
+                tooltip={<CustomTooltip>follow me on spotify</CustomTooltip>}
                 tooltipPlacement={TooltipPlacement.Right}
                 link="https://open.spotify.com/user/pranav1608maddali"
                 target="_blank"

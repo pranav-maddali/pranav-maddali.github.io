@@ -9,12 +9,22 @@ class Organizations extends Component {
         return (
             <AnimatedPage>
                 <div className="orgs-section">
-                    <Section 
-                    title={<p><AccountBalanceRoundedIcon style={{'fontSize':'75px'}}/><br></br>organizations</p>}
-                    subtitle={<p><b>creative labs</b><br></br><i>served as a backend developer on mobile app 'partiic' to display parties around campus</i><br></br><br></br><b>acm</b><br></br><i>machine learning crash-course workshops</i><br></br><br></br><b>delta sigma pi</b><br></br><i>served as senior-vice president and director of brotherhood</i></p>}
-                    id="section5"
-                    />
-                </div>
+                <h2><p><AccountBalanceRoundedIcon style={{'fontSize':'75px'}}/><br></br>organizations</p></h2>
+                    <div class="grid-container">
+                        <div class="grid-item">
+                            <h2>ucla creative labs</h2>
+                            <p><i>served as a <b>backend developer</b> on mobile app 'partiic' to display parties around campus</i></p>
+                        </div>
+                        <div class="grid-item">
+                            <h2>ucla delta sigma pi</h2>
+                            <p><i>served as <b>senior-vice president</b> and <b>director of brotherhood</b></i></p>
+                        </div>
+                    </div>
+                        <div class="grid-item">
+                            <h2>ucla acm</h2>
+                            <p><i>machine learning crash-course workshops</i></p>
+                        </div>
+                    </div>
             </AnimatedPage>
         );
     }

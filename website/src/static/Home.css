@@ -3,27 +3,27 @@
     transition: 0.5s ease-in-out;
   }
   
-  .grad-image:hover {
-    filter: grayscale(0%);
-    transition: 0.5s ease-in-out;
-    transform: scale(1.1);
-  }
+.grad-image:hover {
+  filter: grayscale(0%);
+  transition: 0.5s ease-in-out;
+  transform: scale(1.1);
+}
 
-  .image-container {
-    overflow: hidden;
-    border-radius: 50%;
-    width: 425px;
-    height: 425px;
-    margin: 35px auto;
-  }
-  
-  .image-container img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-    margin: auto;
-  }
+.image-container {
+  overflow: hidden;
+  border-radius: 50%;
+  width: 425px;
+  height: 425px;
+  margin: 35px auto;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  margin: auto;
+}
 
  
 h1 {
@@ -37,26 +37,21 @@ h1 {
 
 /* Typewriter effect 1 */
 @keyframes typing {
-  0.0000%, 27.3488% { content: ""; }
-  1.1395%, 26.2093% { content: "p"; }
-  2.2791%, 25.0698% { content: "pr"; }
-  3.4186%, 23.9302% { content: "pra"; }
-  4.5581%, 22.7907% { content: "pran"; }
-  5.6977%, 21.6512% { content: "prana"; }
-  6.8372%, 20.5116% { content: "pranav"; }
-
-  30.7674%, 51.2791% { content: ""; }
-  31.9070%, 50.1395% { content: "a"; }
-  33.0465%, 49.0000% { content: "a d"; }
-  34.1860%, 47.8605% { content: "a dj"; }
-
-  54.6977%, 75.2093% { content: ""; }
-  55.8372%, 74.0698% { content: "a"; }
-  56.9767%, 72.9302% { content: "a "; }
-  58.1163%, 71.7907% { content: "a g"; }
-  59.2558%, 70.6512% { content: "a gr"; }
-  60.3953%, 69.5116% { content: "a gra"; }
-  61.5349%, 68.3721% { content: "a grad"; }
+  0.0000%, 98.8605% { content: ""; }
+  11.1395%, 97.7210% { content: "p"; }
+  12.2791%, 96.5815% { content: "pr"; }
+  13.4186%, 95.4420% { content: "pra"; }
+  14.5581%, 94.3025% { content: "pran"; }
+  15.6977%, 93.1630% { content: "prana"; }
+  16.8372%, 92.0235% { content: "pranav"; }
+  17.9765%, 90.8840% { content: "pranav "; }
+  19.1160%, 89.7445% { content: "pranav m" }
+  20.2555%, 88.6050% { content: "pranav ma" }
+  21.3950%, 87.4655% { content: "pranav mad" }
+  22.5345%, 86.3260% { content: "pranav madd" }
+  23.6740%, 85.1865% { content: "pranav madda" }
+  24.8135%, 84.0470% { content: "pranav maddal"}
+  25.9530%, 82.9075% { content: "pranav maddali"}
 }
 
 @keyframes blink {
@@ -94,9 +89,7 @@ h1 {
   }
   
   @keyframes sequencePopup {
-    0%, 100% { content: "pranav"; }
-    25% { content: "a dj (dj navvy)"; }
-    50% { content: "a ucla grad"; }
+    0%, 100% { content: "pranav maddali"; }
   }
 
   .typewriter::before {
