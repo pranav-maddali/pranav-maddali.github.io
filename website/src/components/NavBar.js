@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import logo from '../assets/memoji.svg';
 import { Link, animateScroll as scroll} from 'react-scroll';
+import logo from '../assets/memoji.svg';
 
 export default class NavBar extends Component {
     scrollToTop = () => {
