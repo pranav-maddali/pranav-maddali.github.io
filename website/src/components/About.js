@@ -15,7 +15,7 @@ class About extends Component {
                 <Section 
                 title={<p><InfoRoundedIcon style={{'fontSize':'75px'}}/><br></br>about</p>}
                 subtitle={<p>
-                            check out my resume/socials using the menu on the right and contact information down below: 
+                            check out my resume/socials using the menu at the bottom and contact information down below: 
                             <br></br><br></br>
                             <EmailRoundedIcon style={{'fontSize':'50px'}}/>
                             <br></br>
