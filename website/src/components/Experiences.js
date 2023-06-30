@@ -15,15 +15,15 @@ class Experiences extends Component {
                             <h2>meta</h2>
                             <p><i>software engineer intern</i>
                                     <br></br>
-                                    <small>applied research swe</small>
+                                    <small>applied research</small>
                                     <br></br>
                                     jun 2022 - sep 2022</p>
                         </div>
                         <div class="grid-item">
                             <h2>creative labs</h2>
-                            <p><i>product manager, software developer</i>
+                            <p><i>software engineer</i>
                                     <br></br>
-                                    <small>backend dev</small>
+                                    <small>backend</small>
                                     <br></br>
                                     jan 2020 - sep 2021</p>
                         </div>
@@ -31,7 +31,7 @@ class Experiences extends Component {
                             <h2>ucla anderson school of business</h2>
                             <p><i>undergraduate researcher</i>
                                     <br></br>
-                                    <small>data scientist</small>
+                                    <small>data science</small>
                                     <br></br>
                                     jun 2021 - aug 2021</p>
                         </div>
@@ -39,7 +39,7 @@ class Experiences extends Component {
                             <h2>alphaICs</h2>
                             <p><i>software engineer intern</i>
                                     <br></br>
-                                    <small>machine learning swe</small>
+                                    <small>machine learning</small>
                                     <br></br>
                                     jun 2019 - aug 2019</p>
                         </div>
