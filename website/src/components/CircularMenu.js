@@ -3,6 +3,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import FormatListBulletedRoundedIcon from '@mui/icons-material/FormatListBulletedRounded';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LibraryMusicRoundedIcon from '@mui/icons-material/LibraryMusicRounded';
+import $ from "jquery";
 
 import {
     CircleMenu,
@@ -18,15 +19,25 @@ const CustomTooltip = styled.span`
   color: #ffffff;
 `;
 
-export function CircularMenu() {
+const blur = (active) => {
+    if (active) {
+        $(document.getElementsByClassName("Column")).css('filter', 'blur(5px)');
+        $(document.getElementsByClassName("Column")).css('transition', '2s');
+    }
+    else {
+        $(document.getElementsByClassName("Column")).css('filter', 'blur(0px)');
+    }
+}
 
+export function CircularMenu() {
     return (
         <CircleMenu
             startAngle={-180}
             rotationAngle={180}
             itemSize={1.25}
-            radius={5.5}
+            radius={5}
             rotationAngleInclusive={true}
+            onMenuToggle={(menuActive) => blur(menuActive)}
         >
             <CircleMenuItem
                 tooltip={<CustomTooltip>follow me on instagram</CustomTooltip>}
@@ -40,8 +51,8 @@ export function CircularMenu() {
             <CircleMenuItem
                 tooltip={<CustomTooltip>check out my resume</CustomTooltip>}
                 tooltipPlacement={TooltipPlacement.Left}
-                link="https://drive.google.com/file/d/1l5dECtP7AiXbjOb7ixk1qr1uJyUbvozD/view?usp=sharing"
-                target="_blank"
+                link="https://drive.google.com/file/d/1pjrAPignVQvwljZJMFCGcgpEuDFU8SbJ/view?usp=sharing"
+                target='_blank'
                 >
                 <FormatListBulletedRoundedIcon />
             </CircleMenuItem>
