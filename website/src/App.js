@@ -53,7 +53,7 @@ class App extends Component {
                 <Route exact path="/organizations" element={<Organizations />}/>
                 <Route exact path="/interests" element={<Interests />}/>
                 <Route exact path="/about" element={< About />}/>
-                <Route exact path="/meta" element={<Card title="meta" subtitle={<p><i>software engineer intern</i>
+                <Route exact path="experiences/meta" element={<Card title="meta" subtitle={<p><i>software engineer intern</i>
                                                                                           <br></br>
                                                                                           <small>applied research</small>
                                                                                           <br></br><br></br>
@@ -67,40 +67,40 @@ class App extends Component {
                                                                                           <b>built</b> seq2seq paraphrasing pipeline which incorporated entity-linking for improved paraphrasing predictions
                                                                                           </small>
                                                                                       </p>} img=""/>}/>
-              <Route exact path="/creative-labs" element={<Card title="creative labs" subtitle={<p><i>software engineer</i>
-                                                                                          <br></br>
-                                                                                          <small>backend</small>
-                                                                                          <br></br><br></br>
-                                                                                          <small>
-                                                                                          <b>led</b> the back-end team for a web application, creating the stack using python and django to design web APIs
-                                                                                          <br></br>
-                                                                                          <b>built</b> full-stack python framework to facilitate faster user authentication using custom login by 5x
-                                                                                          <br></br>
-                                                                                          <b>implemented</b> mobile application landing pages using react and jQuery, adding google/fb/ucla external APIs
-                                                                                          <br></br>
-                                                                                          <b>created</b> database through postgresql, sqlalchemy; deployed and monitored on heroku
-                                                                                          </small>
-                                                                                      </p>} img=""/>}/>
-              <Route exact path="/anderson" element={<Card title="anderson" subtitle={<p><i>student researcher</i>
-                                                                                          <br></br>
-                                                                                          <small>political science</small>
-                                                                                          <br></br><br></br>
-                                                                                          <small>
-                                                                                          <b>extracted</b> monetary policy spending through web scraping python scripts and notebooks to build robust datasets
-                                                                                          <br></br>
-                                                                                          <b>spearheaded</b> data transformation to implement linear regression and identifying prominent variables to spending
-                                                                                          </small>
-                                                                                      </p>} img=""/>}/>    
-              <Route exact path="/alpha" element={<Card title="alphaICs" subtitle={<p><i>software engineer intern</i>
-                                                                                          <br></br>
-                                                                                          <small>machine learning</small>
-                                                                                          <br></br><br></br>
-                                                                                          <small>
-                                                                                          <b>designed</b> OpenCV script to augment datasets, cleaned using pandas/numpy to create robust testing datasets
-                                                                                          <br></br>
-                                                                                          <b>engineered</b> various Python scripts to decrease data collection, improving model performance by 3%
-                                                                                          </small>
-                                                                                      </p>} img=""/>}/>                                                                    
+                <Route exact path="experiences/creative-labs" element={<Card title="creative labs" subtitle={<p><i>software engineer</i>
+                                                                                            <br></br>
+                                                                                            <small>backend</small>
+                                                                                            <br></br><br></br>
+                                                                                            <small>
+                                                                                            <b>led</b> the back-end team for a web application, creating the stack using python and django to design web APIs
+                                                                                            <br></br>
+                                                                                            <b>built</b> full-stack python framework to facilitate faster user authentication using custom login by 5x
+                                                                                            <br></br>
+                                                                                            <b>implemented</b> mobile application landing pages using react and jQuery, adding google/fb/ucla external APIs
+                                                                                            <br></br>
+                                                                                            <b>created</b> database through postgresql, sqlalchemy; deployed and monitored on heroku
+                                                                                            </small>
+                                                                                        </p>} img=""/>}/>
+                <Route exact path="experiences/anderson" element={<Card title="anderson" subtitle={<p><i>student researcher</i>
+                                                                                            <br></br>
+                                                                                            <small>political science</small>
+                                                                                            <br></br><br></br>
+                                                                                            <small>
+                                                                                            <b>extracted</b> monetary policy spending through web scraping python scripts and notebooks to build robust datasets
+                                                                                            <br></br>
+                                                                                            <b>spearheaded</b> data transformation to implement linear regression and identifying prominent variables to spending
+                                                                                            </small>
+                                                                                        </p>} img=""/>}/>    
+                <Route exact path="experiences/alpha" element={<Card title="alphaICs" subtitle={<p><i>software engineer intern</i>
+                                                                                            <br></br>
+                                                                                            <small>machine learning</small>
+                                                                                            <br></br><br></br>
+                                                                                            <small>
+                                                                                            <b>designed</b> OpenCV script to augment datasets, cleaned using pandas/numpy to create robust testing datasets
+                                                                                            <br></br>
+                                                                                            <b>engineered</b> various Python scripts to decrease data collection, improving model performance by 3%
+                                                                                            </small>
+                                                                                        </p>} img=""/>}/>                                                                    
               </Routes>
             </div>
           </div>
