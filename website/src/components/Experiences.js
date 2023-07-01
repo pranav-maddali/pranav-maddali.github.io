@@ -10,7 +10,7 @@ class Experiences extends Component {
             <AnimatedPage>
                     <h2><p><WorkRoundedIcon style={{'fontSize':'75px'}}/><br></br>experiences</p></h2>
                     <div class="grid-container">
-                        <a href="experiences/meta" style={{'textDecoration':'none', 'color':'#000000'}} class="grid-item">
+                        <a href="/meta" style={{'textDecoration':'none', 'color':'#000000'}} class="grid-item">
                             <h2>meta</h2>
                             <p><i>software engineer intern</i>
                                     <br></br>
@@ -18,7 +18,7 @@ class Experiences extends Component {
                                     <br></br>
                                     jun 2022 - sep 2022</p>
                         </a>
-                        <a href="experiences/creative-labs" style={{'textDecoration':'none', 'color':'#000000'}} class="grid-item">
+                        <a href="/creative-labs" style={{'textDecoration':'none', 'color':'#000000'}} class="grid-item">
                             <h2>creative labs</h2>
                             <p><i>software engineer</i>
                                     <br></br>
@@ -26,7 +26,7 @@ class Experiences extends Component {
                                     <br></br>
                                     jan 2020 - sep 2021</p>
                         </a>
-                        <a href="experiences/anderson" style={{'textDecoration':'none', 'color':'#000000'}} class="grid-item">
+                        <a href="/anderson" style={{'textDecoration':'none', 'color':'#000000'}} class="grid-item">
                             <h2>ucla anderson school of business</h2>
                             <p><i>undergraduate researcher</i>
                                     <br></br>
@@ -34,7 +34,7 @@ class Experiences extends Component {
                                     <br></br>
                                     jun 2021 - aug 2021</p>
                         </a>
-                        <a href="experiences/alpha" style={{'textDecoration':'none', 'color':'#000000'}} class="grid-item">
+                        <a href="/alpha" style={{'textDecoration':'none', 'color':'#000000'}} class="grid-item">
                             <h2>alphaICs</h2>
                             <p><i>software engineer intern</i>
                                     <br></br>
