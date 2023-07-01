@@ -22,7 +22,7 @@ const CustomTooltip = styled.span`
 const blur = (active) => {
     if (active) {
         $(document.getElementsByClassName("Column")).css('filter', 'blur(5px)');
-        $(document.getElementsByClassName("Column")).css('transition', '2s');
+        $(document.getElementsByClassName("Column")).css('transition', '1.5s');
     }
     else {
         $(document.getElementsByClassName("Column")).css('filter', 'blur(0px)');

@@ -53,7 +53,7 @@ class App extends Component {
                 <Route exact path="/organizations" element={<Organizations />}/>
                 <Route exact path="/interests" element={<Interests />}/>
                 <Route exact path="/about" element={< About />}/>
-                <Route path="/experiences/meta" element={<Card title="meta" subtitle={<p><i>software engineer intern</i>
+                <Route path="/experiences:meta" element={<Card title="meta" subtitle={<p><i>software engineer intern</i>
                                                                                           <br></br>
                                                                                           <small>applied research</small>
                                                                                           <br></br><br></br>
@@ -67,7 +67,7 @@ class App extends Component {
                                                                                           <b>built</b> seq2seq paraphrasing pipeline which incorporated entity-linking for improved paraphrasing predictions
                                                                                           </small>
                                                                                       </p>} img=""/>}/>
-              <Route path="/experiences/creative-labs" element={<Card title="creative labs" subtitle={<p><i>software engineer</i>
+              <Route path="/experiences:creative-labs" element={<Card title="creative labs" subtitle={<p><i>software engineer</i>
                                                                                           <br></br>
                                                                                           <small>backend</small>
                                                                                           <br></br><br></br>
@@ -81,7 +81,7 @@ class App extends Component {
                                                                                           <b>created</b> database through postgresql, sqlalchemy; deployed and monitored on heroku
                                                                                           </small>
                                                                                       </p>} img=""/>}/>
-              <Route path="/experiences/anderson" element={<Card title="anderson" subtitle={<p><i>student researcher</i>
+              <Route path="/experiences:anderson" element={<Card title="anderson" subtitle={<p><i>student researcher</i>
                                                                                           <br></br>
                                                                                           <small>political science</small>
                                                                                           <br></br><br></br>
@@ -91,7 +91,7 @@ class App extends Component {
                                                                                           <b>spearheaded</b> data transformation to implement linear regression and identifying prominent variables to spending
                                                                                           </small>
                                                                                       </p>} img=""/>}/>    
-              <Route path="/experiences/alpha" element={<Card title="alphaICs" subtitle={<p><i>software engineer intern</i>
+              <Route path="/experiences:alpha" element={<Card title="alphaICs" subtitle={<p><i>software engineer intern</i>
                                                                                           <br></br>
                                                                                           <small>machine learning</small>
                                                                                           <br></br><br></br>
