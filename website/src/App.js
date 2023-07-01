@@ -5,7 +5,7 @@ import { CircularMenu } from "./components/CircularMenu";
 import {
   Route,
   NavLink, 
-  BrowserRouter,
+  HashRouter,
   Routes
 } from "react-router-dom";
 
@@ -22,7 +22,7 @@ class App extends Component {
   render() {
     return (
       <div className='App'>
-        <BrowserRouter>
+        <HashRouter>
           <div className='Column'>
             <div className='header'>
               <NavLink to="/">
@@ -104,7 +104,7 @@ class App extends Component {
               </Routes>
             </div>
           </div>
-        </BrowserRouter>
+        </HashRouter>
         <div className='circular-menu'>
           <CircularMenu />
         </div>
