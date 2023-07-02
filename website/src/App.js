@@ -18,6 +18,8 @@ import Organizations from "./components/Organizations";
 import About from "./components/About";
 import Card from "./components/ExperienceDetail";
 
+import FmdGoodIcon from '@mui/icons-material/FmdGood';
+
 class App extends Component {
   render() {
     return (
@@ -56,6 +58,8 @@ class App extends Component {
                 <Route exact path="/meta" element={<Card title="meta" subtitle={<p><i>software engineer intern</i>
                                                                                           <br></br>
                                                                                           <small>applied research</small>
+                                                                                          <br></br>
+                                                                                          <b>menlo park, ca</b>
                                                                                           <br></br><br></br>
                                                                                           <small>
                                                                                           <b>designed</b> pipeline for paraphrase generation using probabilistic entity masking to broaden datasets in python
@@ -70,6 +74,8 @@ class App extends Component {
                 <Route exact path="/creative-labs" element={<Card title="creative labs" subtitle={<p><i>software engineer</i>
                                                                                             <br></br>
                                                                                             <small>backend</small>
+                                                                                            <br></br>
+                                                                                            <b>los angeles, ca</b>
                                                                                             <br></br><br></br>
                                                                                             <small>
                                                                                             <b>led</b> the back-end team for a web application, creating the stack using python and django to design web APIs
@@ -84,6 +90,8 @@ class App extends Component {
                 <Route exact path="/anderson" element={<Card title="anderson" subtitle={<p><i>student researcher</i>
                                                                                             <br></br>
                                                                                             <small>political science</small>
+                                                                                            <br></br>
+                                                                                            <b>los angeles, ca</b>
                                                                                             <br></br><br></br>
                                                                                             <small>
                                                                                             <b>extracted</b> monetary policy spending through web scraping python scripts and notebooks to build robust datasets
@@ -94,6 +102,8 @@ class App extends Component {
                 <Route exact path="/alpha" element={<Card title="alphaICs" subtitle={<p><i>software engineer intern</i>
                                                                                             <br></br>
                                                                                             <small>machine learning</small>
+                                                                                            <br></br>
+                                                                                            <b>bangalore, india</b>
                                                                                             <br></br><br></br>
                                                                                             <small>
                                                                                             <b>designed</b> OpenCV script to augment datasets, cleaned using pandas/numpy to create robust testing datasets
