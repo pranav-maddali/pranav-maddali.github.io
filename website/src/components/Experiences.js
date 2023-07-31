@@ -27,8 +27,8 @@ class Experiences extends Component {
                                     jan 2020 - sep 2021</p>
                         </a>
                         <a href="#/anderson" style={{'textDecoration':'none', 'color':'#000000'}} class="grid-item">
-                            <h2>ucla anderson school of business</h2>
-                            <p><i>undergraduate researcher</i>
+                            <h2>datares - anderson school of business</h2>
+                            <p><i>researcher</i>
                                     <br></br>
                                     <small>data science</small>
                                     <br></br>
@@ -40,7 +40,7 @@ class Experiences extends Component {
                                     <br></br>
                                     <small>machine learning</small>
                                     <br></br>
-                                    jun 2019 - aug 2019</p>
+                                    jun 2018 - aug 2018</p>
                         </a>
                     </div>
             </AnimatedPage>

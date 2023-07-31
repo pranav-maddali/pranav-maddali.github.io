@@ -62,13 +62,13 @@ class App extends Component {
                                                                                           <b>menlo park, ca</b>
                                                                                           <br></br><br></br>
                                                                                           <small>
-                                                                                          <b>designed</b> pipeline for paraphrase generation using probabilistic entity masking to broaden datasets in python
+                                                                                          <b>designed</b> models for paraphrase generation through probabilistic masking to broaden datasets using AWS & ECS
                                                                                           <br></br>
                                                                                           <b>implemented</b> fine-tuning strategies by augmenting data through delexicalization improving paraphrasing by 8%
                                                                                           <br></br>
                                                                                           <b>developed</b> metric to evaluate paraphrases resulting in a 7% increase in correlation and a 20% increase in efficiency
                                                                                           <br></br>
-                                                                                          <b>built</b> seq2seq paraphrasing pipeline which incorporated entity-linking for improved paraphrasing predictions
+                                                                                          <b>optimized</b> modular Seq2Seq pipeline which incorporated 2 methods of paraphrase generation chosen by the user
                                                                                           </small>
                                                                                       </p>} img=""/>}/>
                 <Route exact path="/creative-labs" element={<Card title="creative labs" subtitle={<p><i>software engineer</i>
@@ -78,25 +78,27 @@ class App extends Component {
                                                                                             <b>los angeles, ca</b>
                                                                                             <br></br><br></br>
                                                                                             <small>
-                                                                                            <b>led</b> the back-end team for a web application, creating the stack using python and django to design web APIs
+                                                                                            <b>led</b> a backend team of 4 for a web application and established stack using Python and Django to design web APIs
                                                                                             <br></br>
-                                                                                            <b>built</b> full-stack python framework to facilitate faster user authentication using custom login by 5x
+                                                                                            <b>executed</b> improved user authentication from 0 to 1 using custom login services through Flask, Python, and React
                                                                                             <br></br>
-                                                                                            <b>implemented</b> mobile application landing pages using react and jQuery, adding google/fb/ucla external APIs
+                                                                                            <b>implemented</b> mobile application landing pages using React, jQuery, and added functionality for 4 external APIs
                                                                                             <br></br>
-                                                                                            <b>created</b> database through postgresql, sqlalchemy; deployed and monitored on heroku
+                                                                                            <b>monitored</b> database of 250+ users during beta phase through Heroku and SQLAlchemy, Postgres for querying
                                                                                             </small>
                                                                                         </p>} img=""/>}/>
-                <Route exact path="/anderson" element={<Card title="anderson" subtitle={<p><i>student researcher</i>
+                <Route exact path="/anderson" element={<Card title="datares - anderson" subtitle={<p><i>researcher</i>
                                                                                             <br></br>
                                                                                             <small>political science</small>
                                                                                             <br></br>
                                                                                             <b>los angeles, ca</b>
                                                                                             <br></br><br></br>
                                                                                             <small>
-                                                                                            <b>extracted</b> monetary policy spending through web scraping python scripts and notebooks to build robust datasets
+                                                                                            <b>extracted</b> monetary policy spending and projections through Python scrapping scripts to distill 25+ years of data
                                                                                             <br></br>
-                                                                                            <b>spearheaded</b> data transformation to implement linear regression and identifying prominent variables to spending
+                                                                                            <b>spearheaded</b> data transformations to implement linear regression and identifying prominent variables to spending
+                                                                                            <br></br>
+                                                                                            <b>projected</b> future federal funds rates using LSTM layers improving existing modeling prediction performance by 6%
                                                                                             </small>
                                                                                         </p>} img=""/>}/>    
                 <Route exact path="/alpha" element={<Card title="alphaICs" subtitle={<p><i>software engineer intern</i>
@@ -106,9 +108,9 @@ class App extends Component {
                                                                                             <b>bangalore, india</b>
                                                                                             <br></br><br></br>
                                                                                             <small>
-                                                                                            <b>designed</b> OpenCV script to augment datasets, cleaned using pandas/numpy to create robust testing datasets
+                                                                                            <b>developed</b> internal scripts to augment datasets and augmented data through Python to create 5 testing datasets
                                                                                             <br></br>
-                                                                                            <b>engineered</b> various Python scripts to decrease data collection, improving model performance by 3%
+                                                                                            <b>engineered</b> various Python scripts to improve data collection and model performance by 3% for internal models
                                                                                             </small>
                                                                                         </p>} img=""/>}/>                                                                    
               </Routes>
