@@ -51,7 +51,7 @@ export function CircularMenu() {
             <CircleMenuItem
                 tooltip={<CustomTooltip>check out my resume</CustomTooltip>}
                 tooltipPlacement={TooltipPlacement.Left}
-                link="https://drive.google.com/file/d/1pjrAPignVQvwljZJMFCGcgpEuDFU8SbJ/view?usp=sharing"
+                link="https://drive.google.com/file/d/1qRAQdcC3DyxilLRXHEkRz83vgEd7msB0/view?usp=sharing"
                 target='_blank'
                 >
                 <FormatListBulletedRoundedIcon />
